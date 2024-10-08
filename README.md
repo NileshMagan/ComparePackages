@@ -26,22 +26,16 @@ This repository contains a Node.js script that compares the dependencies in two 
    Your repos folder would look like:
    repos
 
-   - scale-respawned
-   - respawned-navigation
+   - repository_1
+   - repository_2
+   - repository_3
    - compare-packages
      ....
 
-2. **Update repositories being compared in the script**
-
-   ```javascript
-   const package1Name = "scale-respawned";
-   const package2Name = "render-scale-hub";
-   ```
-
-3. **Run script**
+2. **Run script with repository names**
 
    ```bash
-    node compare-packages.js
+    node compare-packages.js repo1name repo2name
    ```
 
    You can view the generated markdown in "comparison-results.md"

@@ -1,8 +1,14 @@
 const fs = require('fs');
 
-// Custom names for the two package.json files
-const repo1Name = "myRepo1";
-const repo2Name = "myRepo2";
+// Get repository names from command line arguments
+const [repo1Name, repo2Name] = process.argv.slice(2);
+
+// Check if both repository names are provided
+if (!repo1Name || !repo2Name) {
+    console.error('Please provide two repository names as arguments.');
+    console.log('Usage: node compare-packages.js <repo1name> <repo2name>');
+    process.exit(1);
+}
 
 // Load the two package.json files
 const package1 = JSON.parse(fs.readFileSync(`../${repo1Name}/package.json`, 'utf8'));
