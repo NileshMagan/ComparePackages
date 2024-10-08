@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Custom names for the two package.json files
-const repo1Name = "scale-respawned";
-const repo2Name = "render-scale-hub";
+const repo1Name = "myRepo1";
+const repo2Name = "myRepo2";
 
 // Load the two package.json files
 const package1 = JSON.parse(fs.readFileSync(`../${repo1Name}/package.json`, 'utf8'));
