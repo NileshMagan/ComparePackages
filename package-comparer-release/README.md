@@ -19,23 +19,25 @@ This repository contains a Node.js script that compares the dependencies in two 
 1. **Clone the Repository into the same folder as your other repos**
 
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-name>
+   npm install -g package-comparer
    ```
 
-   Your repos folder would look like:
-   repos
+   Your repos folder would look like (name of repos folder doesn't matter):
 
+   ```bash
+   repos
    - repository_1
    - repository_2
    - repository_3
-   - compare-packages
-     ....
+   ...
+   ```
 
 2. **Run script with repository names**
 
-   ```bash
-    node compare-packages.js repository_1 repository_2
-   ```
+Open a terminal in the repos directory (it must be similar structure to the above)
 
-   You can view the generated markdown in "comparison-results.md"
+```bash
+ compare-packages repository_1 repository_2
+```
+
+You can view the generated markdown in "comparison-results.md"

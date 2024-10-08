@@ -12,8 +12,8 @@ if (!repo1Name || !repo2Name) {
 }
 
 // Load the two package.json files
-const package1 = JSON.parse(fs.readFileSync(`../${repo1Name}/package.json`, 'utf8'));
-const package2 = JSON.parse(fs.readFileSync(`../${repo2Name}/package.json`, 'utf8'));
+const package1 = JSON.parse(fs.readFileSync(`./${repo1Name}/package.json`, 'utf8'));
+const package2 = JSON.parse(fs.readFileSync(`./${repo2Name}/package.json`, 'utf8'));
 
 const deps1 = package1.dependencies || {};
 const deps2 = package2.dependencies || {};
