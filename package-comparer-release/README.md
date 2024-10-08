@@ -6,9 +6,15 @@ This repository contains a Node.js script that compares the dependencies in two 
 
 - **Custom Project Names**: Specify names for the projects being compared.
 - **Sectioned Output**: Organized output that clearly differentiates between:
+
   - Packages present in both projects (with version comparisons)
   - Packages only in the first project
   - Packages only in the second project
+
+    Example report (markdown):
+
+    ![alt text](image.png)
+    ![alt text](image-1.png)
 
 ## Prerequisites
 

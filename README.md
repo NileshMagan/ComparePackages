@@ -1,5 +1,7 @@
 # Package Version Comparison Script
 
+This is the developer README
+
 This repository contains a Node.js script that compares the dependencies in two `package.json` files. It highlights version mismatches and lists packages that are unique to each project.
 
 ## Features
