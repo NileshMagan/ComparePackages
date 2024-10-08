@@ -10,13 +10,16 @@ This repository contains a Node.js script that compares the dependencies in two 
 - **Sectioned Output**: Organized output that clearly differentiates between:
 
   - Packages present in both projects (with version comparisons)
-  - Packages only in the first project
+  - Packages only in the first project!
+
   - Packages only in the second project
 
   Example report (markdown):
 
-  ![alt text](image.png)
-  ![alt text](image-1.png)
+  ![Screenshot 2024-10-08 at 4 52 38 pm](https://github.com/user-attachments/assets/4e975ed9-b97a-40ef-bea5-093e1e881580)
+  
+  ![Uploading Screenshot 2024-10-08 at 4.55.17 pm.png…]()![Uploading Screenshot 2024-10-08 at 4.55.17 pm.png…]()
+
 
 ## Prerequisites
 
