@@ -18,7 +18,8 @@ This repository contains a Node.js script that compares the dependencies in two 
 
   ![Screenshot 2024-10-08 at 4 52 38 pm](https://github.com/user-attachments/assets/4e975ed9-b97a-40ef-bea5-093e1e881580)
   
-  ![Uploading Screenshot 2024-10-08 at 4.55.17 pm.png…]()![Uploading Screenshot 2024-10-08 at 4.55.17 pm.png…]()
+  ![Screenshot 2024-10-08 at 4 55 17 pm](https://github.com/user-attachments/assets/6c45340d-bd98-4593-9034-32d38972c5cf)
+
 
 
 ## Prerequisites
