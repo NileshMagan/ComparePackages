@@ -1,6 +1,6 @@
 {
   "name": "package-comparer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to compare package versions between two repositories.",
   "main": "compare-packages.js",
   "bin": {
